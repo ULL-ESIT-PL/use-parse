@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 const path = require('path');
-const [peg, input] = process.argv.splice(2);
+let [peg, input, method] = process.argv.splice(2);
 
-const parse = require(path.join(process.cwd(),peg)).parse;
+if (!method) method = "parse";
+
+const parse = require(path.join(process.cwd(),peg))[method];
 console.log(`Processing <${input}>`);
 try {
   const r = parse(input);
