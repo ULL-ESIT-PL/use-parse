@@ -1,5 +1,5 @@
 {
-  "name": "ULL-ESIT-PL/use-parse",
+  "name": "@ull-esit-pl/use-parse",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"no test written. Use  at your own risk\" && exit 1"
   },
   "bin": { "use-parse": "./bin/use.js"},
-  "keywords": [],
+  "keywords": ["ULL", "PL", "Procesadores de Lenguajes"],
   "author": "Casiano Rodriguez-Leon <casiano.rodriguez.leon@gmail.com> (https://github.com/crguezl)",
   "license": "ISC"
 }
